@@ -1,0 +1,110 @@
+%text-color {
+  color: rgb(247, 249, 253);
+  font-weight: bold;
+  border-bottom: white solid 2px;
+}
+
+%blur-highlight {
+  background-color: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+
+
+
+.navbar-edit{
+    margin-top: 50px;
+}
+  
+.navbar-highlight{
+    @extend %blur-highlight;
+    padding: 1% 14% 0% 9%;
+}
+  
+.navbar-text{
+    padding-bottom: 0px;
+}
+  
+.navbar-text a{
+    margin: 0 30px;
+    font-family: 'Barlow', sans-serif;
+    color: antiquewhite;
+    padding-bottom: 30px;
+    text-decoration: none;
+    &:hover {
+      @extend %text-color;
+       }
+}
+
+
+.horizontal-line{
+    display: inline-block;
+    width: 35%;
+    position: absolute;
+    left: 170px;
+    top: 74px;
+}
+  
+
+
+@media (max-width: 992px) { 
+
+  .horizontal-line{
+      display: none;
+  }
+  
+  .navbar-highlight{
+      width: 90%;
+      position: absolute;
+      z-index: 3;
+      left: 10%;
+      height: 1500px;
+      font-size: 1.8rem;
+  }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1300px){
+
+  p {
+    padding: 0px;
+    }
+  
+    .horizontal-line {
+      display: none;
+    }
+  
+    .navbar-edit{
+      margin-top: 0px;
+    }
+  
+    .navbar-highlight{
+      padding: 1% 10% 0% 5%;
+    }
+  
+    .navbar-text a{
+      margin: 0 10px;
+   } 
+}
+
+
+
+@media (min-width: 1300px) and (max-width: 1550px) {
+
+  p{
+    padding-right: 50px;
+  }
+ 
+  .horizontal-line {
+    width: 20%;
+  }
+}
+
+
+
+@media (min-width: 1550px) and (max-width: 1900px) {
+  
+  .horizontal-line {
+    width: 30%;
+  }
+}

@@ -1,0 +1,51 @@
+$font-stack1 : 'Bellefair', serif;
+$font-stack2 : 'Barlow', sans-serif;
+$font-stack3 : 'Barlow Condensed', sans-serif;
+
+body{
+    color: white;
+    background-size: 100%;
+  }
+  
+  h1{
+    font-family: $font-stack1;
+    line-height: 1.5;
+    font-size: 4.5rem;
+  }
+  
+  h2{
+    font-family: $font-stack1;
+    line-height: 1.5;  
+    font-size: 2.5rem;
+    opacity: 0.5;
+  }
+  
+  h3{
+    font-family: $font-stack2;
+    line-height: 1.5;
+  }
+  
+  h4{
+    font-family: $font-stack2;
+    line-height: 5;
+    font-size: 2rem;
+  }
+  
+  p{
+    font-family: $font-stack3;
+    font-size: 1.5rem;
+    padding-right: 200px;
+  }
+  
+  hr {
+    border-bottom: 2px solid white;
+  }
+
+
+
+@media (max-width: 992px) { 
+    p{
+        padding: 0px;
+        font-size: 2rem;
+      }
+}
