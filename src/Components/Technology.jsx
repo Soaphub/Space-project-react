@@ -25,8 +25,8 @@ function Technology(){
                                 it's quite an awe-inspiring sight on the launch pad!</p>
                             </div>
                             <div class="col-lg right-section tech-right">
-                              <img class="potrait" src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="crew-image"/>
-                              <img class="lanscape" src="./assets/technology/image-launch-vehicle-landscape.jpg" alt="crew-image"/>
+                              <img class="potrait" src="./Space-project-react/assets/technology/image-launch-vehicle-portrait.jpg" alt="crew-image"/>
+                              <img class="lanscape" src="./Space-project-react/assets/technology/image-launch-vehicle-landscape.jpg" alt="crew-image"/>
                             </div>
                         </div>
                     </div>
@@ -41,8 +41,8 @@ function Technology(){
                                 of the Earth’s rotation for launch.</p>
                             </div>
                             <div class="col-lg right-section tech-right">
-                              <img class="potrait" src="./assets/technology/image-spaceport-portrait.jpg" alt="crew-image"/>
-                              <img class="lanscape" src="./assets/technology/image-spaceport-landscape.jpg" alt="crew-image"/>
+                              <img class="potrait" src="./Space-project-react/assets/technology/image-spaceport-portrait.jpg" alt="crew-image"/>
+                              <img class="lanscape" src="./Space-project-react/assets/technology/image-spaceport-landscape.jpg" alt="crew-image"/>
                             </div>
                         </div>
                     </div>
@@ -57,8 +57,8 @@ function Technology(){
                                 and plenty of other activities to keep you entertained.</p>
                             </div>
                             <div class="col-lg right-section tech-right">
-                              <img class="potrait" src="./assets/technology/image-space-capsule-portrait.jpg" alt="crew-image"/>
-                              <img class="lanscape" src="./assets/technology/image-space-capsule-landscape.jpg" alt="crew-image"/>
+                              <img class="potrait" src="./Space-project-react/assets/technology/image-space-capsule-portrait.jpg" alt="crew-image"/>
+                              <img class="lanscape" src="./Space-project-react/assets/technology/image-space-capsule-landscape.jpg" alt="crew-image"/>
                             </div>
                         </div>
                     </div>
