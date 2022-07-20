@@ -18,7 +18,7 @@ function Destination(){
                     <div class="carousel-item active">
                         <div class="row">
                             <div class="col-lg left-section">
-                              <img src="./assets/destination/image-moon.png" alt="Europa"/>
+                              <img src="./Space-project-react/assets/destination/image-moon.png" alt="Europa"/>
                             </div>
                             <div class="col-lg right-section">              
                               <h1>MOON</h1>
@@ -40,7 +40,7 @@ function Destination(){
                     <div class="carousel-item">
                         <div class="row">
                             <div class="col-lg left-section">
-                              <img src="./assets/destination/image-mars.png" alt="Europa"/>
+                              <img src="./Space-project-react/assets/destination/image-mars.png" alt="Europa"/>
                             </div>
                             <div class="col-lg right-section">              
                               <h1>MARS</h1>
@@ -62,7 +62,7 @@ function Destination(){
                     <div class="carousel-item">
                         <div class="row">
                             <div class="col-lg left-section">
-                              <img src="./assets/destination/image-europa.png" alt="Europa"/>
+                              <img src="./Space-project-react/assets/destination/image-europa.png" alt="Europa"/>
                             </div>
                             <div class="col-lg right-section">              
                               <h1>Europa</h1>
@@ -85,7 +85,7 @@ function Destination(){
                     <div class="carousel-item">
                         <div class="row">
                             <div class="col-lg left-section">
-                              <img src="./assets/destination/image-titan.png" alt="Europa"/>
+                              <img src="./Space-project-react/assets/destination/image-titan.png" alt="Europa"/>
                             </div>
                             <div class="col-lg right-section">              
                               <h1>TITAN</h1>
