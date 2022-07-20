@@ -15,18 +15,18 @@ return(
         <Navbar/>
         <Switch>
             <Route exact path="/Space-project-react">
-                <Redirect to="/home" />
+                <Redirect to="/Space-project-react/home" />
             </Route>
-            <Route path="/home">
+            <Route path="/Space-project-react/home">
                 <Home/>
             </Route>
-            <Route path="/destination">
+            <Route path="/Space-project-react/destination">
                 <Destination />
             </Route>
-            <Route path="/crew">
+            <Route path="/Space-project-react/crew">
                 <Crew />
             </Route>
-            <Route path="/technology">
+            <Route path="/Space-project-react/technology">
                 <Technology />
             </Route>
         </Switch>
