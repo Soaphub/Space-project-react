@@ -74,7 +74,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - Ambadi M P(https://soaphub.github.io/Space-explore/)
+- Website - Ambadi M P(https://github.com/Soaphub/Space-project-react)
 - Frontend Mentor - ambadi m p(https://www.frontendmentor.io/profile/yourusername)
 
 ## Acknowledgments
