@@ -27,7 +27,7 @@ return(
                         </div>
                         <hr class="custom-division"/>
                         <div class="col-md right-section">
-                          <img src="./assets/crew/image-douglas-hurley.png" alt="crew-image"/>
+                          <img src="./Space-project-react/crew/image-douglas-hurley.png" alt="crew-image"/>
                         </div>
                     </div>
                 </div>  
@@ -43,7 +43,7 @@ return(
                         </div>
                         <hr class="custom-division"/>
                         <div class="col-md  right-section">
-                          <img src="./assets/crew/image-mark-shuttleworth.png" alt="crew-image"/>
+                          <img src="./Space-project-react/crew/image-mark-shuttleworth.png" alt="crew-image"/>
                         </div>
                     </div>
                 </div>  
@@ -60,7 +60,7 @@ return(
                         </div>
                         <hr class="custom-division"/>
                         <div class="col-md order-1 right-section">
-                          <img src="./assets/crew/image-victor-glover.png" alt="crew-image"/>
+                          <img src="./Space-project-react/assets/crew/image-victor-glover.png" alt="crew-image"/>
                         </div>
                     </div>
                 </div>  
@@ -76,7 +76,7 @@ return(
                         </div>
                         <hr class="custom-division"/>
                         <div class="col-md right-section">
-                          <img src="./assets/crew/image-anousheh-ansari.png" alt="crew-image"/>
+                          <img src="./Space-project-react/assets/crew/image-anousheh-ansari.png" alt="crew-image"/>
                         </div>
                     </div>
                 </div>  
