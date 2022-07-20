@@ -14,7 +14,7 @@ function Navbar(){
             <nav class="navbar navbar-expand-lg py-0 navbar-edit">
                 <div class="container-fluid px-0">
                     <a class="navbar-brand ms-5" href="#">
-                      <img src="./assets/shared/logo.svg" alt="logo"/>
+                      <img src="./Space-project-react/assets/shared/logo.svg" alt="logo"/>
                     </a>
                     <button class="navbar-toggler" onClick = {click} type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                       <span className={hamBurger ? "navbar-toggler-icon ham" : "navbar-toggler-icon close"}></span>
