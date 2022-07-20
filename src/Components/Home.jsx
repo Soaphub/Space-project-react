@@ -16,7 +16,7 @@ function Home() {
                              give you a truly out of this world experience!</p>
                     </div>
                     <div class="col-lg right-section">
-                        <img class="circle-img" src="./assets/favicon/circle-256.gif" alt=""/>
+                        <img class="circle-img" src="./Space-project-react/assets/favicon/circle-256.gif" alt=""/>
                         <h1 class="circle-img-text">EXPLORE</h1>
                     </div>
                 </div>
