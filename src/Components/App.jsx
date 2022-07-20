@@ -14,7 +14,7 @@ return(
     <div>
         <Navbar/>
         <Switch>
-            <Route exact path="/">
+            <Route exact path="/Space-project-react">
                 <Redirect to="/home" />
             </Route>
             <Route path="/home">
