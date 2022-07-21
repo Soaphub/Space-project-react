@@ -79,4 +79,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-The udemdy coarse by Angela helped a lot in completing the project.
+The udemdy course by Angela helped a lot in completing the project.
