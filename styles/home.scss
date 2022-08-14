@@ -1,0 +1,178 @@
+// Home page
+#homepage-content {
+  margin-bottom: 60px;
+  padding-top: 200px;
+  .left-section{
+    padding: 70px 193px 91px 95px;
+    p{
+      padding-right: 70px;
+    }
+  }
+  .right-section{
+    margin-top: 27px;
+    padding: 30px 35px;
+    position: relative;
+    text-align: center;
+    .circle-img{
+      padding: 70px;
+      &:hover{
+        border-radius: 100%;
+        background-color: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(81.5485px);
+      }
+    }
+    .circle-img-text {
+      position: absolute;
+      color: black;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+// Size from 1600 to 1800px
+@media (min-width: 1600px) and (max-width: 1799.98px) {
+  #homepage-content{
+    padding-top: 180px;
+    .left-section{
+      padding: 50px 173px 71px 75px;
+    }
+    .right-section{
+      margin-top: 27px;
+      padding: 30px 35px;
+    }
+  }
+}
+
+// Size from 1400px to 1600px
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  #homepage-content{
+    padding-top: 160px;
+    .left-section{
+      padding: 20px 153px 51px 55px;
+    }
+    .right-section{
+      margin-top: 7px;
+      padding: 10px 35px;
+    }
+  }
+} 
+
+// Size from 1200px to 1400px
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  #homepage-content{
+    padding-top: 120px;
+    .left-section{
+      padding: 0px 93px 11px 15px;
+    }
+    .right-section{
+      padding: 5px 5px;
+    }
+  }
+} 
+
+// Size till 2000px
+@media (max-width: 1199.98px){
+  #homepage-content{
+    padding-top: 0px;
+    .left-section{
+      p{
+        padding: 0px;
+      }
+    }
+    .right-section{
+      .circle-img{
+        padding: 50px;
+        width: 322px;
+        height: 322px;
+      }
+    }
+    // Size from 900px to 1200px
+    @media (min-width: 992px) and (max-width: 1199.98px){
+      .left-section{
+        padding: 66px 139px 75px;
+      }
+      .right-section{
+        padding: 50px 73px;
+      }
+    }
+    // Size from 700px to 900px
+    @media (min-width: 700px) and (max-width: 991.98px){
+      .left-section{
+        padding: 46px 100px 55px;
+      }
+      .right-section{
+        padding: 30px 53px; 
+      }
+    }
+    // Size from 500px to 700px
+    @media (min-width: 576px) and (max-width: 699.98px){
+      .left-section{
+        padding: 26px 50px 35px;
+      }
+      .right-section{
+        padding: 10px 33px; 
+      }
+    }
+  }
+}
+
+
+// Size from 500px
+@media (max-width: 575.98px){
+  #homepage-content{
+    margin-bottom: 40px;
+    padding-top: 0px;
+    .left-section{
+      p{
+        padding: 0px;
+      }
+    }
+    .right-section{
+      .circle-img{
+        padding: 30px;
+        width: 190px;
+        height: 190px;
+      }
+    }
+    // Size from 400px to 500px
+    @media (min-width: 400px) and (max-width: 575.98px) { 
+      .left-section{
+        padding: 48px 44px 43px;
+      }
+      .right-section{
+        padding: 18px 0px; 
+      }
+    }
+    // Size till 400px
+    @media (max-width: 399.98px) { 
+      .left-section{
+        padding: 28px 24px 23px;
+      }
+      .right-section{
+        padding: 8px 0px; 
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

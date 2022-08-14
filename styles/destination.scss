@@ -1,0 +1,265 @@
+// Destination
+#destination-content {
+  .carousel-indicators {
+    width: max-content;
+    height: fit-content;
+    display: inline;
+    margin: 0px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    & button {
+      margin-right:30px;
+      padding-bottom: 10px;
+      width: fit-content;
+      height: fit-content;
+      text-indent: 0; 
+      font-family: 'BarlowCondensed';
+      font-size: 1rem;
+      line-height: 1.2rem;
+      letter-spacing: 0.2rem;
+      color:white;
+      background-color: #0d122a;
+      &.active{
+        border-bottom: white solid 2px;
+      }
+      &:hover{
+        color: #D0D6F9;
+        border-bottom: solid 2px;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+      }
+    }
+  }
+  .left-section{
+    padding: 36px 85px 42px 140px;
+    h5{
+      position: relative;
+      left: -9%;
+      margin-bottom: 97px;
+    }
+  }
+  .right-section{
+    padding: 205px 64px 58px 142px;
+    hr{
+      border-bottom: #383B4B solid 1px;
+    }
+    p{
+      padding-bottom: 54px;
+    }
+    .distance, .period{
+      margin-top: 57px
+    }
+  }
+}
+
+// Size from 1600 to 1800px
+@media (min-width: 1600px) and (max-width: 1799.98px) {
+  #destination-content{
+    .carousel-indicators {
+      top: 18%;
+      left: 60%;
+    }
+    .left-section{
+      padding: 16px 65px 22px 120px;
+      h5{
+        left: -7%;
+      }
+    }
+    .right-section{
+      padding: 185px 44px 38px 122px;
+    }
+  }
+}
+
+ // Size from 1400px to 1600px
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  #destination-content{
+    .carousel-indicators {
+      top: 16%;
+      left: 58%;
+    }
+    .left-section{
+      padding: 16px 45px 2px 100px;
+      h5{
+        left: -5%;
+      }
+    }
+    .right-section{
+      padding: 165px 24px 18px 112px;
+    }  
+  }
+}
+
+// Size from 1200px to 1400px
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  #destination-content{
+    .carousel-indicators {
+      top: 14%;
+      left: 56%;
+    }
+    .left-section{
+      padding: 6px 25px 2px 60px;
+      h5{
+        left: -3%;
+        margin-bottom: 77px;
+      }
+    }
+    .right-section{
+      padding: 145px 4px 8px 62px;
+      height: 595px;
+      p{
+        padding-bottom: 34px;
+      }
+      .distance, .period{
+        margin-top: 28px
+      }
+    }  
+  }
+}
+
+// Size from 500px to 1200px
+@media (max-width: 1199.98px){
+  #destination-content{
+    .carousel-indicators{
+      left: 50%;
+      transform: translate(-50%);
+      & button{
+        margin-right: 30px;
+        font-size: 0.9rem;
+        line-height: 1rem;
+        letter-spacing: 0.1rem;
+      }
+    }
+    .left-section{
+      h5{
+        position:absolute;
+        left:0%;
+      }
+      img{
+        width: 300px;
+      }
+    }
+    .right-section{
+      p{
+        padding-bottom: 49px;
+      }
+    }
+    // Size from 900px to 1200px
+    @media (min-width: 992px) and (max-width: 1199.98px){
+      .carousel-indicators{
+        top: 51%;
+      }
+      .left-section{
+        padding: 124px 220px 20px;
+        h5{
+          top: 4%;
+        }
+      }
+      .right-section{
+        padding: 147px 97px 42px;
+      }
+    }
+    // Size from 700px to 900px
+    @media (min-width: 700px) and (max-width: 991.98px){
+      .carousel-indicators{
+        top: 49%;
+      }
+      .left-section{
+        padding: 104px 100px 0px;
+        h5{
+          top: 2%;
+        }
+      }
+      .right-section{
+        height: 540px;
+        padding: 127px 77px 22px;
+      }
+    }
+    // Size from 500px to 700px
+    @media (min-width: 576px) and (max-width: 699.98px){
+      .carousel-indicators{
+        top: 47%;
+      }
+      .left-section{
+        padding: 84px 80px 0px;
+        h5{
+          top: 1%;
+        }
+      }
+      .right-section{
+        padding: 107px 57px 2px;
+        height: 527px;
+      }
+    }
+  }
+} 
+
+// Size till 500px
+@media (max-width: 575.98px) { 
+  #destination-content{
+    .carousel-indicators{
+      left: 50%;
+      transform: translate(-50%);
+      & button{
+        margin-right: 10px;
+        font-size: 0.7rem;
+        line-height: 1rem;
+        letter-spacing: 0.1rem;
+      }
+    }
+    .left-section{
+      h5{
+        position: absolute;
+        width: max-content;
+        left: 50%;
+        top:2%;
+        transform: translate(-50%);
+      }
+      img{
+        width: 170px;
+      }
+    }
+    .right-section{
+      p{
+        margin-bottom: 32px;
+      }
+    }
+    // size 400px till 500px
+    @media (min-width: 400px) and (max-width: 575.98px){
+      .carousel-indicators{
+        top: 33%;
+      }
+      .left-section{
+        padding: 85px 70px 65px;
+      }
+      .right-section{
+        height: 580px;
+        padding: 48px 44px 38px;
+      }
+    }
+    // Size 400px
+    @media (max-width: 399.98px) {
+      .carousel-indicators{
+        top: 30%;
+      }
+      .left-section{
+        padding: 65px 50px 45px;
+      }
+      .right-section{
+        height: 540px;
+        padding: 28px 24px 18px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+    
+
