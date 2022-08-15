@@ -75,7 +75,7 @@
 // Size till 2000px
 @media (max-width: 1199.98px){
   #homepage-content{
-    padding-top: 0px;
+    padding-top: 100px;
     .left-section{
       p{
         padding: 0px;
@@ -98,7 +98,7 @@
       }
     }
     // Size from 700px to 900px
-    @media (min-width: 700px) and (max-width: 991.98px){
+    @media (min-width: 576px) and (max-width: 991.98px){
       .left-section{
         padding: 46px 100px 55px;
       }
@@ -106,8 +106,8 @@
         padding: 30px 53px; 
       }
     }
-    // Size from 500px to 700px
-    @media (min-width: 576px) and (max-width: 699.98px){
+    // Size from 500px
+    @media (max-width: 575.98px){
       .left-section{
         padding: 26px 50px 35px;
       }
@@ -119,43 +119,6 @@
 }
 
 
-// Size from 500px
-@media (max-width: 575.98px){
-  #homepage-content{
-    margin-bottom: 40px;
-    padding-top: 0px;
-    .left-section{
-      p{
-        padding: 0px;
-      }
-    }
-    .right-section{
-      .circle-img{
-        padding: 30px;
-        width: 190px;
-        height: 190px;
-      }
-    }
-    // Size from 400px to 500px
-    @media (min-width: 400px) and (max-width: 575.98px) { 
-      .left-section{
-        padding: 48px 44px 43px;
-      }
-      .right-section{
-        padding: 18px 0px; 
-      }
-    }
-    // Size till 400px
-    @media (max-width: 399.98px) { 
-      .left-section{
-        padding: 28px 24px 23px;
-      }
-      .right-section{
-        padding: 8px 0px; 
-      }
-    }
-  }
-}
 
 
 
