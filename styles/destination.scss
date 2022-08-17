@@ -118,23 +118,17 @@
   }
 }
 
-// Size from 500px to 1200px
+// Size till 1200px
 @media (max-width: 1199.98px){
   #destination-content{
     .carousel-indicators{
       left: 50%;
       transform: translate(-50%);
-      & button{
-        margin-right: 30px;
-        font-size: 0.9rem;
-        line-height: 1rem;
-        letter-spacing: 0.1rem;
-      }
     }
     .left-section{
       h5{
         position:absolute;
-        left:0%;
+        left:2%;
       }
       img{
         width: 300px;
@@ -149,6 +143,12 @@
     @media (min-width: 992px) and (max-width: 1199.98px){
       .carousel-indicators{
         top: 51%;
+        & button{
+          margin-right: 20px;
+          font-size: 1rem;
+          line-height: 1.2rem;
+          letter-spacing: 0.2rem;
+        }
       }
       .left-section{
         padding: 124px 220px 20px;
@@ -160,103 +160,30 @@
         padding: 147px 97px 42px;
       }
     }
-    // Size from 700px to 900px
-    @media (min-width: 700px) and (max-width: 991.98px){
+    // Size till 900px
+    @media (max-width: 991.98px){
       .carousel-indicators{
-        top: 49%;
+        top: 35%;
+        & button{
+          margin-right: 50px;
+          font-size: 1.4rem;
+          line-height: 1rem;
+          letter-spacing: 0.3rem;
+        }
       }
       .left-section{
-        padding: 104px 100px 0px;
+        padding: 100px 50px;
         h5{
-          top: 2%;
+          top: 0%;
         }
       }
       .right-section{
-        height: 540px;
-        padding: 127px 77px 22px;
-      }
-    }
-    // Size from 500px to 700px
-    @media (min-width: 576px) and (max-width: 699.98px){
-      .carousel-indicators{
-        top: 47%;
-      }
-      .left-section{
-        padding: 84px 80px 0px;
-        h5{
-          top: 1%;
-        }
-      }
-      .right-section{
-        padding: 107px 57px 2px;
-        height: 527px;
+        height: 960px;
+        padding: 100px 50px;
       }
     }
   }
 } 
-
-// Size till 500px
-@media (max-width: 575.98px) { 
-  #destination-content{
-    .carousel-indicators{
-      left: 50%;
-      transform: translate(-50%);
-      & button{
-        margin-right: 10px;
-        font-size: 0.7rem;
-        line-height: 1rem;
-        letter-spacing: 0.1rem;
-      }
-    }
-    .left-section{
-      h5{
-        position: absolute;
-        width: max-content;
-        left: 50%;
-        top:2%;
-        transform: translate(-50%);
-      }
-      img{
-        width: 170px;
-      }
-    }
-    .right-section{
-      p{
-        margin-bottom: 32px;
-      }
-    }
-    // size 400px till 500px
-    @media (min-width: 400px) and (max-width: 575.98px){
-      .carousel-indicators{
-        top: 33%;
-      }
-      .left-section{
-        padding: 85px 70px 65px;
-      }
-      .right-section{
-        height: 580px;
-        padding: 48px 44px 38px;
-      }
-    }
-    // Size 400px
-    @media (max-width: 399.98px) {
-      .carousel-indicators{
-        top: 30%;
-      }
-      .left-section{
-        padding: 65px 50px 45px;
-      }
-      .right-section{
-        height: 540px;
-        padding: 28px 24px 18px;
-      }
-    }
-  }
-}
-
-
-
-
 
 
 

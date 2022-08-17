@@ -114,29 +114,20 @@
   }
 }
 
-// Size 900 to 1200
-@media (min-width: 576px) and (max-width: 1199.98px){
+// Size till 1200
+@media (max-width: 1199.98px){
   #crewpage-content{
     .carousel-indicators{
       position: absolute;
       margin: 0px;
       left: 50%;
       transform: translate(-50%);
-      & button{
-        width: 10px;
-        height: 10px;
-        margin-right: 20px;
-      }
     }
     .left-section{
-      h4{
-        font-size: 1.5rem;
-        line-height: 1.7rem;
-      }
       h5{
         margin: 0px;
         position: absolute;
-        top: 2%;
+        top: 0%;
       }
       p{
         padding: 0px;
@@ -144,7 +135,6 @@
     }
     .right-section{
       display: block;
-      height: 482px;
       img{
         width: 422px;
         height: 482px;
@@ -154,127 +144,63 @@
     @media (min-width: 991.98px) and (max-width: 1199.98px){
       .carousel-indicators{
         top: 44%;
+        & button{
+          width: 10px;
+          height: 10px;
+          margin-right: 20px;
+        }
       }
       .left-section{
         padding: 124px 125px 120px;
         height: 560px;
+        h4{
+          font-size: 1.5rem;
+          line-height: 1.7rem;
+        }
         h5{
           left:7%;
         }
       }
       .right-section{
+        height: 482px;
         padding: 0px 86px;
       }
     }
-    // Size from 700px to 900px
-    @media (min-width: 700px) and (max-width: 991.98px){
+    // Size till 900px
+    @media (max-width: 991.98px){
+      margin-bottom: 50px;
       .carousel-indicators{
-        top: 41%;
+        top: 46%;
+        & button{
+          width: 25px;
+          height: 25px;
+          margin-right: 50px;
+        }
       }
       .left-section{
-        padding: 104px 105px 110px;
-        height: 475px;
+        padding: 120px 50px;
+        height: 765px;
+        h4{
+          font-size: 2.5rem;
+          line-height: 2.7rem;
+        }
         h5{
           left: 5%;
         }
-        .right-section{
-          padding: 0px 66px;
-        }
       }
-    }
-    // Size from 500px to 700px
-    @media (min-width: 576px) and (max-width: 699.98px){
-      .carousel-indicators{
-        top: 37%;
-      }
-      .left-section{
-        padding: 84px 25px 90px;
-        height: 465px;
-        h5{
-          left: 3%;
-        }
+      .custom-division{
+        display:block;
+        border-color: #383B4B solid 2px;
       }
       .right-section{
-        padding: 0px;
+        padding: 100px 100px 0px;
+        height: 582px;
+      }
+      .custom-grid{
+        display: flex;
+        flex-direction: column-reverse;
       }
     }
-  }
-}
-
-// Size till 500px
-@media (max-width: 575.98px) { 
-  #crewpage-content {
-    padding: 0px 20px;
-    .carousel-indicators{
-      margin: 0px;
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%);
-      & button{
-        width: 10px;
-        height: 10px;
-        margin-right: 10px;
-      }
-    }
-    .left-section{
-      h4{
-        font-size: 1rem;
-        line-height: 1.2rem;
-      }
-      h5{
-        margin: 0px;
-        width: max-content;
-        position: absolute;
-        top: 2%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-      p{
-        padding: 0px;
-      }
-    }
-    .custom-division{
-      display:block;
-      border-color: #383B4B solid 2px;
-    }
-    .right-section{
-      display: block;
-      height: fit-content;
-      img{
-        width: 200px;
-        height: 240px;
-      }
-    }
-    .custom-grid{
-      display: flex;
-      flex-direction: column-reverse;
-    }
-    // size 400px till 500px
-    @media (min-width: 400px) and (max-width: 575.98px){
-      .carousel-indicators{
-        top: 51%;
-      }
-      .left-section{
-        height: 410px;
-        padding: 104px 24px 94px;
-      }
-      .right-section{
-        padding: 75px 24px 0px;
-      }
-    }
-    // Size 400px
-    @media (max-width: 399.98px) {
-      .carousel-indicators{
-        top: 47%;
-      }
-      .left-section{
-        height: 395px;
-        padding: 74px 10px 84px;
-      }
-      .right-section{
-        padding: 55px 8px 0px;
-      }
-    }    
   }
 }
     

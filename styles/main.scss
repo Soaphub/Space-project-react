@@ -75,7 +75,7 @@ p{
  .content{
     text-align: center;
     margin: 60px 0px 80px;
-    padding: 0px 100px;
+    padding: 0px 90px;
   }
 }
 
@@ -83,33 +83,56 @@ p{
 @media (max-width: 991.98px) { 
   .content{
     text-align: center;
-    margin: 100px 0px 60px;
-    padding: 0px 50px;
+    margin: 50px 0px;
+    padding: 50px;
     h1{
-      font-size: 8rem;
-      line-height: 8.2rem;
+      font-size: 12rem;
+      line-height: 12.7rem;
     }
+    
+    // Heading 2 - Bellefair Regular - 100px
     h2{
-      font-size: 4.5rem;
-      line-height: 5rem;
+      font-size: 8.2rem;
+      line-height: 9.2rem;
     }
+    
+    // Heading 3 - Bellefair Regular - 56px
     h3{
-      font-size: 2.5rem;
-      line-height: 2.75rem;
+      font-size: 5.5rem;
+      line-height: 6rem;
     }
-    h4{
-      font-size: 1.8rem;
-      letter-spacing: 0.1rem;
-      line-height:1.8rem;
+    
+    // Heading 4 - Bellefair Regular - 32px
+    @media(-webkit-min-device-pixel-ratio: 2.5){
+      h4{
+      font-size: 3rem;
+      line-height: 3.3rem;
+      letter-spacing: 0.3rem;
+      }
     }
+    
+    // Heading 5 - Barlow Condensed Regular - 28px - 4.75 Character Space
     h5{
-      font-size: 1.2rem;
-      letter-spacing: 0.1rem;
-      line-height:1.4rem;
+      font-family: 'BarlowCondensed';
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      letter-spacing: 0.5rem;
+    } // Subheading 2 - Barlow Condensed Regular - 14px - 2.35 Character Space
+    
+    // Subheading 1 - Bellefair Regular - 28px
+    h6{
+      font-size: 2.7rem;
+      line-height: 4rem;
     }
+    
+    // Body Text
     p{
-      font-size: 1rem;
-      line-height:1.8rem;
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2.1rem;
+      line-height: 4rem;
+      color: #D0D6F9;
     }
   }
 }

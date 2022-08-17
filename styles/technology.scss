@@ -121,8 +121,6 @@
       transform: translate(-50%, -50%);
       & button{
         margin-bottom: 0px;
-        width: 60px;
-        height: 60px;
       }
     }
     .left-section{ 
@@ -155,6 +153,8 @@
       top: 62%;
       & button{
         margin-right: 30px;
+        width: 60px;
+        height: 60px;
       }
     }
     .left-section{
@@ -171,94 +171,27 @@
   }
 }
 
-// Size from 500px to 900px
-@media (min-width: 576px) and (max-width: 991.98px){
+// Size till 900px
+@media (max-width: 991.98px){
   #technology-content{
     .carousel-indicators{
+      top: 47%;
       & button{
-        margin-right: 20px;
+        margin-right: 60px;
+        width: 80px;
+        height: 80px;
       }
     }
     .left-section{ 
+      padding: 120px 100px; 
+      height: 747px;
       h5{
         top: 0%;
         left: 5%;
       }
     }
-    // Size from 700px to 900px
-    @media (min-width: 700px) and (max-width: 991.98px){
-      .left-section{
-        padding: 160px 155px 80px;
-        height: 475px; 
-      }
-      .right-section{
-        padding: 104px 0px 57px;
-      }
-      .carousel-indicators{
-        top: 54%;
-      }
-    }
-    // Size from 500px to 700px
-    @media (min-width: 576px) and (max-width: 699.98px){
-      .left-section{
-        padding: 140px 135px 60px; 
-        height: 510px;
-      }
-      .right-section{
-        padding: 84px 0px 37px;
-      }
-      .carousel-indicators{
-        top: 50%;
-      }
-    }
-  }
-}
-
-// Size till 500px
-@media (max-width: 575.98px) { 
-  #technology-content{
-    .carousel-indicators button{
-        margin-right: 20px;
-        width: 40px;
-        height: 40px;
-        font-size: 1rem;
-        line-height: 1.2rem;
-      }
-    .left-section{
-      h5{
-        width: max-content;
-        top: 0%;
-        left: 50%;
-        transform: translate(-50%);
-      }
-    }
-    // size 400px till 500px
-    @media (min-width: 400px) and (max-width: 575.98px){
-      padding-top: 6px;
-      .left-section{
-        padding: 74px 44px 81px;
-        height: 360px;
-      }
-      .right-section{
-        padding: 75px 0px 66px;
-      }
-      .carousel-indicators{
-        top: 52%;
-      }
-    }
-    // Size 400px
-    @media (max-width: 399.98px) {
-      padding-top: 4px;
-      .left-section{
-        padding: 54px 24px 61px; 
-        height: 350px;
-      } 
-      .right-section{
-        padding: 55px 0px 46px;
-      }
-      .carousel-indicators{
-        top: 44%;
-      }
+    .right-section{
+      padding: 120px 0px;
     }
   }
 }
