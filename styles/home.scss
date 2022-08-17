@@ -75,7 +75,7 @@
 // Size till 2000px
 @media (max-width: 1199.98px){
   #homepage-content{
-    padding-top: 100px;
+    padding-top: 0px;
     .left-section{
       p{
         padding: 0px;
@@ -84,8 +84,8 @@
     .right-section{
       .circle-img{
         padding: 50px;
-        width: 322px;
-        height: 322px;
+        width: 362px;
+        height: 362px;
       }
     }
     // Size from 900px to 1200px
@@ -98,27 +98,16 @@
       }
     }
     // Size from 700px to 900px
-    @media (min-width: 576px) and (max-width: 991.98px){
+    @media (max-width: 991.98px){
       .left-section{
-        padding: 46px 100px 55px;
+        padding: 146px 200px 105px;
       }
       .right-section{
-        padding: 30px 53px; 
-      }
-    }
-    // Size from 500px
-    @media (max-width: 575.98px){
-      .left-section{
-        padding: 26px 50px 35px;
-      }
-      .right-section{
-        padding: 10px 33px; 
+        padding: 100px 53px; 
       }
     }
   }
 }
-
-
 
 
 

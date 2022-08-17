@@ -103,6 +103,10 @@
 
 // Size 1200px to 900px
 @media (min-width: 992px) and (max-width: 1199.98px){
+  .navbar-edit{
+    margin: 0px 0px 0px 55px;
+  }
+
   .navbar-highlight{
     width: 650px;
     padding: 39px 97px 0px 105px;
@@ -116,19 +120,20 @@
   }
   
   .horizontal-line{
-    width: 270px;
+    display: none;
   }
 }
 
 
-// Size till 900
+// Size till 900px
 @media (max-width: 991.98px) { 
+
   .navbar-edit{
-    margin: 24px 24px 0px 24px;
+    margin: 44px 44px 0px 44px;
   }
 
   .navbar-edit1{
-    margin: 24px 0px 0px 24px;  
+    margin: 44px 0px 0px 44px;  
     padding: 0px;
     .container-fluid{
       padding: 0px;
@@ -140,19 +145,20 @@
   }
   
   .navbar-highlight{
-    padding: 170px 0px 0px 40px;
+    padding: 250px 0px 0px 80px;
     width: 70%;
     position: absolute;
     z-index: 3;
-    height: 700px;
-    top: -24px;
+    height: 100vh;
+    top: -44px;
     left: 30%;
     .navbar-text{
-      padding-bottom: 50px;
+      padding-bottom: 90px;
       margin: 0px;
       a{
-        font-size: 0.8rem;
-        letter-spacing: 1px;
+        font-size: 1rem;
+        letter-spacing: 2.7px;
+        letter-spacing: 0.2rem;
         display: flex;
         justify-content: stretch;
         padding-bottom: 0px;
@@ -164,19 +170,24 @@
     }
   }
 
+  .navbar-brand img{
+    width: 85px;
+    height: 85px;
+  }
+
   .ham{
     background-image: url("../assets/shared/icon-hamburger.svg");
-    width: 24px;
-    height: 21px;
+    width: 44px;
+    height: 41px;
   }
   
   .close{
     background-image: url("../assets/shared/icon-close.svg");
     z-index: 4;
     position: absolute;
-    right: 40px;
-    width: 24px;
-    height: 21px;
+    right: 55px;
+    width: 44px;
+    height: 41px;
   }
 }
 
