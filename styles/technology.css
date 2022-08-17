@@ -30,11 +30,6 @@
   color: #0B0D17;
   opacity: 1;
 }
-#technology-content .carousel-indicators button:hover {
-  background-color: #D0D6F9;
-  mix-blend-mode: normal;
-  opacity: 0.5;
-}
 #technology-content .left-section {
   padding: 46px 75px 144px 325px;
 }

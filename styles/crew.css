@@ -21,11 +21,6 @@
 #crewpage-content .carousel-indicators button.active {
   opacity: 1;
 }
-#crewpage-content .carousel-indicators button:hover {
-  background-color: #D0D6F9;
-  mix-blend-mode: normal;
-  opacity: 0.5;
-}
 #crewpage-content .left-section {
   padding: 56px 106px 169px 75px;
 }
