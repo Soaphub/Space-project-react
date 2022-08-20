@@ -1,8 +1,8 @@
-#Frontend Mentor - Space tourism website solution
+# Frontend Mentor - Space tourism website solution
 
 This is a solution to the Space tourism website challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-##Table of contents
+## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -11,13 +11,12 @@ This is a solution to the Space tourism website challenge on Frontend Mentor. Fr
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
  
-##Overview
+## Overview
 
-##The challenge
+### The challenge
 
 I was able to:
 
@@ -25,14 +24,14 @@ I was able to:
 - See hover states for all interactive elements on the page
 - View each page and be able to toggle between the tabs to see new information
  
-##Links
+### Links
 
 - Solution URL: https://github.com/Soaphub/Space-project-react
 - Live Site URL: https://soaphub.github.io/Space-project-react
 
-##My process
+## My process
 
-##Built with
+### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -41,7 +40,7 @@ I was able to:
 - Mobile-first workflow 
 - React.js
  
-##What I learned
+### What I learned
 
 ```html
   <a class="nav-link" href="crew.html">02 &nbsp; CREW</a>
@@ -64,16 +63,16 @@ const[hamBurger, setCLose] = useState(true);
   }
 ```
 
-##Continued development
+### Continued development
 
 I invoked a click event on explore of home page @ mobile view to show drop down menu.
 
-##Author
+## Author
 
 Website - Ambadi M P(https://soaphub.github.io/Space-project-react/)
 
 Frontend Mentor - ambadi m p(https://www.frontendmentor.io/profile/Soaphub)
 
-##Acknowledgments
+## Acknowledgments
 
 The udemdy course by Angela helped a lot in completing the project.
