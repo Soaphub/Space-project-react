@@ -59,7 +59,7 @@
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   #homepage {
-    background-size: 250px 870px, 1200px 870px;
+    background-size: 250px 800px, 1200px 800px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1599.68px) {
