@@ -1,5 +1,5 @@
 #homepage-content {
-  margin-bottom: 90px;
+  margin-bottom: 60px;
   padding-top: 200px;
 }
 #homepage-content .left-section {
@@ -45,7 +45,7 @@
 }
 @media (min-width: 1400px) and (max-width: 1599.98px) {
   #homepage-content {
-    padding-top: 160px;
+    padding-top: 170px;
   }
   #homepage-content .left-section {
     padding: 20px 153px 51px 55px;
@@ -57,7 +57,7 @@
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   #homepage-content {
-    padding-top: 100px;
+    padding-top: 120px;
   }
   #homepage-content .left-section {
     padding: 0px 93px 11px 15px;
