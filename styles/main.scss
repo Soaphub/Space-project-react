@@ -3,7 +3,7 @@ body{
 }
 
 h1, h2, h3, h4, h6{
-  font-family: 'Bellefair';
+  font-family: 'Bellefair', serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -35,7 +35,7 @@ h4{
 
 // Heading 5 - Barlow Condensed Regular - 28px - 4.75 Character Space
 h5{
-  font-family: 'BarlowCondensed';
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 1.4rem;
   line-height: 2.1rem;
   letter-spacing: 0.3rem;
@@ -49,7 +49,7 @@ h6{
 
 // Body Text
 p{
-  font-family: 'Barlow';
+  font-family: 'Barlow', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.1rem;
