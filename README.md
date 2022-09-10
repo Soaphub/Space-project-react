@@ -26,7 +26,7 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 
 ### Screenshot
 
-![./assets/shared/Screenshot 2022-09-10 at 19-10-16 Space Tourism.png]
+![Alt text](./assets/shared/Screenshot 2022-09-10 at 19-10-16 Space Tourism.png)
 
 ### Links
 
