@@ -116,10 +116,12 @@
 @media (max-width: 991.98px) {
   .navbar-edit {
     margin: 44px 44px 0px 44px;
+    transition: 0.5s ease;
   }
   .navbar-edit1 {
     margin: 44px 0px 0px 44px;
     padding: 0px;
+    transition: 0.5s ease;
   }
   .navbar-edit1 .container-fluid {
     padding: 0px;
