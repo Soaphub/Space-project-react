@@ -154,6 +154,9 @@
     border-bottom: none;
     border-right: white solid 4px;
   }
+  .navbar-highlight .navbar-text a:hover {
+    border-bottom: none;
+  }
   .navbar-brand img {
     width: 85px;
     height: 85px;
