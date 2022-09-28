@@ -2,7 +2,7 @@
   background-color: #0B0D17;
   background-image: url("../assets/home/left.jpg"), url("../assets/home/background-home-desktop.jpg");
   background-position: left, right;
-  background-size: 550px 1000px, 1500px 1000px; 
+  background-size: 35% 100vh, 60% 100vh; 
   background-repeat: no-repeat, no-repeat;
 }
 
@@ -18,7 +18,7 @@
 
 #technology-page{
   background-image: url("../assets/technology/background-technology-desktop.jpg"); 
-  background-size: cover;
+  background-size: 100%;
 }
 
 
@@ -70,14 +70,14 @@
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   #homepage {
-    background-size: 250px 800px, 1200px 800px; 
+    background-size: 35% 100vh, 60%px 100vh; 
   }
 }
 
 
 @media (min-width: 1400px) and (max-width: 1599.68px) {
   #homepage {
-    background-size: 350px 900px, 1300px 900px; 
+    background-size: 35%px 100vh, 60%px 100vh; 
   }
 }
   
