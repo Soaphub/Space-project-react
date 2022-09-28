@@ -152,7 +152,7 @@
   }
   .navbar-highlight .navbar-text a.active {
     border-bottom: none;
-    border-right: white solid 4px;
+    border-right: white solid 10px;
   }
   .navbar-highlight .navbar-text a:hover {
     border-bottom: none;

@@ -2,7 +2,7 @@
   background-color: #0B0D17;
   background-image: url("../assets/home/left.jpg"), url("../assets/home/background-home-desktop.jpg");
   background-position: left, right;
-  background-size: 35% 100vh, 60% 100vh; 
+  background-size: 25% 100vh, 70% 100vh; 
   background-repeat: no-repeat, no-repeat;
 }
 
@@ -70,14 +70,14 @@
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   #homepage {
-    background-size: 35% 100vh, 60%px 100vh; 
+    background-size: 25% 100vh, 70% 100vh; 
   }
 }
 
 
 @media (min-width: 1400px) and (max-width: 1599.68px) {
   #homepage {
-    background-size: 35%px 100vh, 60%px 100vh; 
+    background-size: 25% 100vh, 70% 100vh; 
   }
 }
   
