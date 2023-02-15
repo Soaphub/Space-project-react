@@ -75,11 +75,11 @@ I have made the dropdown of navbar more animated in mobile view
 
 ### Useful resources
 
-- [https://www.youtube.com/c/TheNetNinja) - Learned more about React router.
+- [TheNetNinja](https://www.youtube.com/c/TheNetNinja) - Learned more about React router.
 
 ## Author
 
-- Website - [Ambadi](https://soaphub.github.io/Space-project-react/#/home)
+- Website - [Ambadi](https://soaphub.github.io/Mysite/)
 - Frontend Mentor - [@Soaphube](https://www.frontendmentor.io/profile/Soaphub)
 
 ## Acknowledgments
